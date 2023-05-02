@@ -1,0 +1,48 @@
+#container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.header {
+  font-size: 40px;
+  font-family: "Permanent Marker";
+  text-align: center;
+}
+
+.winner {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: 'Rubik Vinyl', cursive;
+}
+
+.sell-win {
+	background-color: #5CB85C !important;
+}
+
+#reset-btn {
+  margin: 0 auto;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: 'Rubik Vinyl', cursive;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+#reset-btn:hover {
+  background-color: #DB4169;
+  transform: scale(1.1);
+}
+
